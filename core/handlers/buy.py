@@ -1,8 +1,7 @@
-from aiogram import Router, F, Bot
-from aiogram.types import Message, ReplyKeyboardRemove
+from aiogram import Router
+from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
-from core.settings import settings
 from core.keyboards.keyboard import confirm_keyboard
 from core.lexicon.lexicon import BUY_USDT, TERMS_BUY, CONFIRM, CHOOSE_BUY
 from core.handlers.states import FSMDealBuy

@@ -1,5 +1,5 @@
-from aiogram import Router, F, Bot
-from aiogram.types import Message, ReplyKeyboardRemove
+from aiogram import Router
+from aiogram.types import Message
 
 from aiogram.fsm.context import FSMContext
 
